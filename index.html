@@ -17,8 +17,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     background-color:WHITE;
      -webkit-animation-name: example; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-direction: alternate;
     animation-name: example;
     animation-duration: 4s;
+    -webkit-transform: rotateZ(90deg); /* Safari */
+    transform: rotateZ(90deg); /* Standard syntax */
 }
 
 /* Chrome, Safari, Opera */
