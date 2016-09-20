@@ -351,7 +351,6 @@ h2{
   animation: animation 1000ms linear infinite both;
 }
 
-/* Generated with Bounce.js. Edit at https://goo.gl/Q6tkrt */
 
 @-webkit-keyframes animation { 
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
