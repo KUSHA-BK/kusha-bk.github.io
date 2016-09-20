@@ -320,7 +320,7 @@ h2{
         transform: scale(0)
     }
     to {
-        transform: scale(6)
+        transform: scale(3)
     }
 }
 .circle {
