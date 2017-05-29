@@ -553,3 +553,33 @@ body {
 	100% {margin-left: -1000px;}
 }
 
+body{
+	background: linear-gradient(3deg, #ff6060, #963e3e, #060000, #ff0000, #9a0000);
+background-size: 1000% 1000%;
+
+-webkit-animation: heart 26s ease infinite;
+-moz-animation: heart 26s ease infinite;
+-o-animation: heart 26s ease infinite;
+animation: heart 26s ease infinite;
+
+@-webkit-keyframes heart {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes heart {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes heart {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes heart { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100
+}
+
