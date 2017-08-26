@@ -338,8 +338,8 @@ h2{
 
 
 .ting {
-  -webkit-animation: animation 1000ms linear infinite both;
-  animation: animation 1000ms linear infinite both;
+  -webkit-animation: animation 2000ms linear infinite both;
+  animation: animation 2000ms linear infinite both;
 }
 
 
