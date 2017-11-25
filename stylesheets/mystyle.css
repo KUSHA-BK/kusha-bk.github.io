@@ -1,5 +1,24 @@
-
-
+body {
+  background: #0A212E;
+  animation: colorChange 20s infinite;
+}
+@keyframes colorChange {
+  0% {
+    background: #2CAB5B;
+  }
+  25% {
+    background: #FABC03;
+  }
+  50% {
+    background: #ED4B40;
+  }
+  75% {
+    background: #4286F3;
+  }
+  100% {
+    background: #2CAB5B;
+  }
+}
   h1{
     background-color:	#0057ff;
      -webkit-animation-name: example; /* Chrome, Safari, Opera */
